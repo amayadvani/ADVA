@@ -1,8 +1,8 @@
 # Site settings
 title: Amay Advani
 description: Website
-baseurl: "/adva/" # for test: remove string '/space-jekyll-template' to ''
-url: "http://amayadvani.github.io/adva/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+baseurl: "/adva"
+url: "http://amayadvani.github.io" 
 
 # User settings
 username: amayadvani
