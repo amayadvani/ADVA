@@ -1,0 +1,40 @@
+name: Jekyll + Gulp Build and Deploy Workflow Action Code
+
+on:
+  push:
+    branches:
+      - root
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Install Jekyll Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ruby-full build-essential zlib1g-dev
+          gem install bundler jekyll
+
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build
+
+      - name: Build Gulp Assets
+        run: gulp
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
