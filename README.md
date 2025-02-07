@@ -1,14 +1,5 @@
-# Space Jekyll
-
-A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
-
-See a live demo [here](https://victorvoid.github.io/space-jekyll-template/).
-
-![](https://github.com/victorvoid/space-jekyll-template/blob/master/screenshot.png?raw=true)
-
 # Site/User Settings
 
-customize your site in ``_config.yml``
 
 ```ruby
 
@@ -28,8 +19,6 @@ gplus_username:  loremipsum
 disqus_username: loremipsum
 
 ```
-
-See more about project and links in [_config.yml](./_config.yml)
 
 ## How to create a post ?
 
@@ -100,27 +89,3 @@ First, install [jekyll](https://jekyllrb.com/) and [node.js](https://nodejs.org/
 **Space Jekyll** uses the [Stylus](http://stylus-lang.com/) to process his css, then modifies the style of the theme in [this folder](https://github.com/victorvoid/space-jekyll-template/tree/master/src/styl).
 
 You can go in the [variable.styl](https://github.com/victorvoid/space-jekyll-template/blob/master/src/styl/_variables.styl) and modify the colors. 
-
-
-## License
-The MIT License (MIT)
-
-Copyright (c) 2016 Victor Igor
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
