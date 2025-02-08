@@ -4,7 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0.25rem;
+  margin: 0.2rem;
 }
 article,
 aside,
@@ -251,8 +251,8 @@ h4 {
   font-size: 12px;
   padding: 0.938rem;
   margin: 0.125rem;
-  border-radius: 20px 5px;
-  border-width: 1;
+  border-radius: 40px;
+  border-width: 5px;
   border-color: white;
   line-height: 0;
   transition: all 0.7s;
@@ -757,7 +757,7 @@ body.search-overlay:after {
 }
 .tags a:hover {
   color: #2e273d;
-  border: 1px solid #272036;
+  border: 1px solid #000000;
 }
 .img-rounded {
   border-radius: 50%;
