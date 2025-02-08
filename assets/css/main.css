@@ -333,7 +333,7 @@ a.slideButton,
 }
 .dosearch {
   right: 10px;
-  background: #506473;
+  background: #ffffff;
   border-radius: 0.188rem;
   padding: 0.125rem 0.188rem;
 }
@@ -341,7 +341,7 @@ a.slideButton,
   cursor: pointer;
   padding: 0.313rem;
   border-radius: 0.188rem;
-  background: #506473;
+  background: #ffffff;
   width: 2.5rem;
   height: 2.5rem;
   fill: #fff;
@@ -558,7 +558,7 @@ a.slideButton.slide {
 .overlay.slide {
   pointer-events: auto;
   bottom: 162px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.534);
 }
 input[type="search"] {
   -ms-box-sizing: content-box;
