@@ -152,18 +152,13 @@ input[type="search"] {
   appearance: textfield;
   appearance: textfield;
   appearance: textfield;
-  appearance: textfield;
-  appearance: textfield;
-  appearance: textfield;
-  appearance: textfield;
-  appearance: textfield;
-  appearance: textfield;
-  appearance: textfield;
   box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
+  appearance: none;
+  appearance: none;
   appearance: none;
   appearance: none;
   appearance: none;
@@ -492,7 +487,7 @@ aside #topmenu ul li:first-child span {
   height: 20px;
   text-align: center;
   background-color: #000;
-  color: #efb102;
+  color: #1f1d17;
   font-weight: 300;
 }
 aside #topmenu ul li:nth-child(3) {
@@ -566,6 +561,11 @@ input[type="search"] {
   -ms-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
 }
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
@@ -609,6 +609,12 @@ input[type="search"]::-webkit-search-cancel-button {
   box-shadow: none;
   background-clip: padding-box;
   -webkit-appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
 }
 .search-form .search-field:focus {
   outline: 0;
