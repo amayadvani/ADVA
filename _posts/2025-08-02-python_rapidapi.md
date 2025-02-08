@@ -1,5 +1,5 @@
 ---
-keywords: fastai
+layout: minimal
 title: Python RapidAPI
 author: Amay Advani
 permalink: /rapidapi/

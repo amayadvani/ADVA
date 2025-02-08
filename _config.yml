@@ -5,7 +5,7 @@ baseurl: "/adva"
 url: "http://amayadvani.github.io/adva"
 
 # User settings
-username: amayadvani
+username: ADVA
 user_title: Amay Advani
 email: amayadvani@gmail.com
 github_username: amayadvani
@@ -56,7 +56,7 @@ links:
 projects:
   - name: VASE
     url: https://github.com/fluany/fluany
-  - name: vim-frontend
+  - name: 
     url: https://github.com/victorvoid/vim-frontend
   - name: generator-capybara
     url: https://github.com/victorvoid/generator-capybara
