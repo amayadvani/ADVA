@@ -1,15 +1,8 @@
 ---
-keywords: fastai
-description: monkey notes
 title: Notes with coded examples
-tags: [python, notes]
-toc: true 
-badges: true 
-comments: true
+tags: [python]
 author: Amay Advani
-catagories: [jupyter, week1]
-nb_path: _notebooks/2022-12-09-monkeynotes.ipynb
-layout: notebook
+layout: minimal
 ---
 
 <!--
