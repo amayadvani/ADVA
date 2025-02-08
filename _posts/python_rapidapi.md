@@ -1,11 +1,8 @@
 ---
 keywords: fastai
 title: Python RapidAPI
-toc: true
 author: Amay Advani
 permalink: /rapidapi/
-nb_path: _notebooks/2022-10-03-PBL-python_rapidapi.ipynb
-layout: notebook
 ---
 
 <div class="container" id="notebook-container">
