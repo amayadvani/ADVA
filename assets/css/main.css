@@ -43,7 +43,7 @@ a:hover {
   outline: 0;
 }
 abbr[title] {
-  border-bottom: 2px dotted;
+  border-bottom: 3px dotted;
 }
 b,
 strong {
@@ -138,7 +138,7 @@ input {
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
-  padding: 0;
+  padding: 1;
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -147,11 +147,30 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
+  appearance: textfield;
   box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
   appearance: none;
 }
 fieldset {
@@ -206,7 +225,7 @@ h4 {
 }
 @-webkit-keyframes animateGradient {
   0% {
-    background-position: 100% 90%;
+    background-position: 150% 90%;
   }
   99% {
     background-position: 0% 90%;
@@ -316,7 +335,7 @@ a.slideButton,
 }
 .dosearch {
   right: 10px;
-  background: #54456e;
+  background: #506473;
   border-radius: 0.188rem;
   padding: 0.125rem 0.188rem;
 }
@@ -324,7 +343,7 @@ a.slideButton,
   cursor: pointer;
   padding: 0.313rem;
   border-radius: 0.188rem;
-  background: #54456e;
+  background: #506473;
   width: 2.5rem;
   height: 2.5rem;
   fill: #fff;
@@ -344,7 +363,7 @@ aside {
   height: 163px;
   width: 100%;
   bottom: -100%;
-  background: #2f2f33;
+  background: #2f2f3315;
   z-index: 20;
   box-shadow: inset -10px -1px 15px -9px rgba(0, 0, 0, 0.5);
 }
@@ -358,7 +377,7 @@ aside ul {
 }
 aside #topmenu {
   background-color: #506473;
-  border: 2px solid #506473;
+  border: 2px solid #0b0033;
   zoom: 1;
 }
 aside #topmenu:before,
