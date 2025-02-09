@@ -247,15 +247,18 @@ h4 {
   
 }
 .icons-home a {
-  display: inline-block;
-  font-size: 12px;
-  padding: 0.938rem;
-  margin: 0.125rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px; /* Match the visible size of text to icons */
+  width: 30px;
+  height: 30px;
+  padding: 0;
   border-radius: 40px;
-  border-width: 5px;
-  border-color: white;
-  line-height: 0;
-  transition: all 0.7s;
+  text-decoration: none;
+  color: white; /* Ensure the text matches the icon color */
+  border: 1px solid white;
+  box-sizing: border-box;
 }
 .icons-home a .icon {
   fill: #fff;
