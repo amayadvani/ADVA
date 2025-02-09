@@ -537,7 +537,7 @@ aside nav ul a {
   color: #b3b3b1;
 }
 aside nav ul a:hover {
-  background: rgba(135, 116, 169, 0.42);
+  background: rgba(135, 116, 169, 0);
 }
 aside.slide {
   bottom: 0;
