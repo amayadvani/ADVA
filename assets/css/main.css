@@ -250,6 +250,7 @@ h4 {
   
 }
 .icons-home a {
+  color: white;
   display: inline-flex;
   align-items: center;
   justify-content: center;
