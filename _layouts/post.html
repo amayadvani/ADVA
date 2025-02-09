@@ -5,28 +5,31 @@
         {% include svg-icons.html %}
         {% include header-post.html %}
         {% include tree-posts.html %}
-        <ul class="recent">
+        
+         <!-- Posts List -->
+         <ul class="recent">
             <p>Posts:</p>
-            {% for post in site.posts %}
-              <li>
-                <a title="Read the post" href="{{ post.url | prepend: site.baseurl }}">
-                  <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                </a>
-              </li>
+            {% for post in site.posts reversed %}
+                <li>
+                    <a title="Read the post" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+                    </a>
+                    <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+                </li>
             {% endfor %}
-          </ul>
-          <article class="post-content" itemprop="articleBody">
-            {{ content }}
-          </article>
-                    
-            <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+        </ul>
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                {{ content }}
-            </article>
-            {% include comments.html %}
-            {% include footer.html %}
-            {% include scripts.html %}
-        </section>
+        <!-- Page Title -->
+        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+
+        <!-- Post Content -->
+        <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+            {{ content }}
+        </article>
+
+        <!-- Footer and Scripts -->
+        {% include comments.html %}
+        {% include footer.html %}
+        {% include scripts.html %}
     </body>
 </html>
