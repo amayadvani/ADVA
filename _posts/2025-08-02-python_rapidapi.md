@@ -1,8 +1,9 @@
 ---
-layout: minimal
-title: Python RapidAPI
+layout: post
+title: "Python RapidAPI"
 author: Amay Advani
-permalink: /rapidapi/
+date: 2025-08-02
+published: true
 ---
 
 <div class="container" id="notebook-container">
