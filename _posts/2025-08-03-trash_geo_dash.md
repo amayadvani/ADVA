@@ -1,8 +1,10 @@
 ---
-title: Game!
-author : Amay Advani
-layout: minimal
-description: experimental
+layout: post
+title: "Trash Geo Dash"
+date: 2025-08-03 01:00:00
+description: n/a
+tags:
+- python
 ---
 
 <html>

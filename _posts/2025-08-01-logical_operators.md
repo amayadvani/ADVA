@@ -1,9 +1,10 @@
 ---
-title: Notes with coded examples
-tags: [python]
-author: Amay Advani
-layout: minimal
-permalink: /logical_operators.md/
+layout: post
+title: "Logical Operators"
+date: 2025-08-01 01:00:00
+description: n/a
+tags:
+- python
 ---
 
 

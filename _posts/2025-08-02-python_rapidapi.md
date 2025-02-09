@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Python RapidAPI"
-author: Amay Advani
-date: 2025-08-02
-published: true
+date: 2025-08-02 01:00:00
+description: n/a
+tags:
+- python
 ---
 
 <div class="container" id="notebook-container">
