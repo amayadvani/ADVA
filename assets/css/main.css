@@ -335,7 +335,7 @@ a.slideButton,
   z-index: 31;
 }
 .slideButton {
-  left: 5px;
+  left: 10px;
 }
 .dosearch {
   right: 10px;
@@ -486,7 +486,7 @@ aside #topmenu ul li {
   display: inline-block;
 }
 aside #topmenu ul li:first-child {
-  background: #ffffff;
+  background: #00000017;
   padding: 4px 10px 4px 20px;
   margin-left: -10px;
 }
@@ -515,7 +515,7 @@ aside #topmenu ul li span {
   font-weight: 800;
   font-style: normal;
   font-size: 0.813rem;
-  color: #3a32a875;
+  color: #ffffff;
 }
 @media only screen and (max-width: 37.5rem) {
   aside #topmenu ul li:nth-child(3),
