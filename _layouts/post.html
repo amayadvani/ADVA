@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    {% include head.html %}
-    <body>
-        {% include svg-icons.html %}
-        {% include header-post.html %}
-        {% include tree-posts.html %}
-        
-         <!-- Posts List -->
-         <ul class="recent">
-            <p>Posts:</p>
-            {% for post in site.posts reversed %}
-                <li>
-                    <a title="Read the post" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                    </a>
-                    <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-                </li>
-            {% endfor %}
-        </ul>
+  {% include head.html %}
+  <body>
+    {% include svg-icons.html %} {% include header-post.html %} {% include
+    tree-posts.html %}
 
-        <!-- Page Title -->
-        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+    <!-- Posts List -->
+    <ul class="recent">
+      <p>Posts:</p>
+      {% for post in site.posts reversed %}
+      <li>
+        <a title="Read the post" href="{{ post.url | prepend: site.baseurl }}">
+          <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+        </a>
+        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+      </li>
+      {% endfor %}
+    </ul>
 
-        <!-- Post Content -->
-        <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-            {{ content }}
-        </article>
+    <!-- Page Title -->
+    <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
 
-        <!-- Footer and Scripts -->
-        {% include comments.html %}
-        {% include footer.html %}
-        {% include scripts.html %}
-    </body>
+    <!-- Post Content -->
+    <article
+      role="article"
+      id="scroll"
+      class="post-content"
+      itemprop="articleBody"
+    >
+      {{ content }}
+    </article>
+
+    <!-- Footer and Scripts -->
+    {% include comments.html %} {% include footer.html %} {% include
+    scripts.html %}
+  </body>
 </html>
